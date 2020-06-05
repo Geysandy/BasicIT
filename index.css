@@ -1,0 +1,11 @@
+.attention{
+    color: red;
+    font-weight: bold;
+}
+.opdracht
+{
+    color: darkred;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+}

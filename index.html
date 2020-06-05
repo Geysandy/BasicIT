@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basic IT</title>
+</head>
+<body>
+    <header>
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="architectuur.html">Computer architectuur</a></li>
+                <li><a href="gdpr.html">GDPR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Basic IT Eindopdracht</h1>
+     <p>Eerst heb ik windows 10 iso gedownload en de informatie van de website gevolgd</p>
+    <img src="images/1.png" alt="windows10 download" width="1000" height="600">
+    <p>dan heb ik vmware gedownload (mijn virtuele machine)</p>
+    <img src="images/2.png" alt="vmware download" width="1000" height="600">
+    <p>Ik heb dan de handboek gevolgd voor de installatie van vmware compleet te krijgen</p>
+    <p>Eenmaal geopend ben ik naar programmas en onderdelen gegaan en dan aan de linkerkant windows onderdelen in of uitschakelen.</p>
+    <p>Dan naar internet information services en een aantal boxes gecheckt, ik zal ook in de video aantonen welke boxes ik gecheckt heb
+        De meeste informatie kwam van online dus heb ik niet over elke check een antwoord.
+    </p>
+    <img src="images/check_boxes_iis_stap3.jpg" alt="programs and features in windows" width="1000" height="600">
+    <p>Het volgende wat ik gedaan heb ik visual studio code downloaden omdat ik met dit programma weet hoe ik een bewerkte index aanmaak</p>
+    <p>Daarna heb ik mijn iis programma geopend, en dan links bij verbindingen > desktop uitklappen > sites uitklappen > Rechtklik op sites
+        > Add new website..
+    </p>
+    <img src="images/add_website_step5.jpg" alt="working in iis" width="1000" height="600">
+    <p>Eenmaal daar vullen we het volgende in : Site naam : BasicIT (niet super belangrijk voor onze opdracht veronderstel ik),
+        het pad dat we volgen naar onze html file is volgens mij super belangrijk! Ik heb hier veel fouten gemaakt en alleen dit pad werkte voor mij
+    </p>
+    <img src="images/pad.jpg" alt="mijn pad" width="1000" height="600">
+    <p> dus wat doe ik hier : ga eerst naar mijn :c > inetpub > wwwroot! Hier in de wwwroot heb ik een nieuwe folder gemaakt
+        en mijn css files van visual studio code ingeplakt
+    </p>
+    <p>dan hebben we ip address die ik hier niet selecteer omdat ik wil dat de localhost:8188 werkt , we selecteren
+        poort 8188 , en bij hostnaam : localhost
+    </p>
+    <img src="images/iis_add_site_overview.jpg" alt="mijn pad" width="1000" height="600">
+    <p class="attention">momenteel staat mijn eerst testbestand als html dus het voorbeeld dat ik als volgend toon is niet mooi en perfect, daar dient dit bestand voor</p>
+    <p>dus we klikken op ok, we surfen naar localhost:8188 en deze werkt!</p>
+    <img src="images/localhost.jpg" alt="localhost8188" width="1000" height="600">
+    <p>het volgende wat we willen is een login hiervoor heb ik de volgende stappen gebruikt : </p>
+    <p>we klikken op onze site in iis en gaan naar authentication > eenmaal daar disablen we anonymous authentication > en enable ik basic authentication</p>
+    <p class="attention">Before authentication!!</p>
+    <img src="images/before_auth.jpg" alt="before authentication" width="1000" height="600">
+    <p class="attention">After authentication!!</p>
+    <img src="images/after_auth.jpg" alt="After authentication" width="1000" height="600">
+    <p>Eerst dan nog heb ik computer management > local users and groups > users > add user > howestadmin + password</p>
+    <img src="images/ne_user.jpg" alt="user management" width="1000" height="600">
+    <p>en hier de website met de authentication changes, de login werkt ook volledig</p>
+    <img src="images/authentication_op_website.jpg" alt="website with authentication" width="1000" height="600">
+    <p>vervolgens heb ik op mijn website geklikt en dan edit bindings, ik heb localhost weggehaald , mijn ipadres geselecteerd </p>
+    <img src="images/bindings.jpg" alt="bindings" width="1000" height="600">
+    <p>en dan was de eerste opdracht klaar hier nog een foto van de website die opengaat in mijn lokale computer</p>
+    <img src="images/lokaal.png" alt="lokaal" width="1000" height="600">
+</body>
+</html>
